@@ -1,0 +1,59 @@
+.infoTitle{
+    width: 100%;
+    padding-bottom:50px;
+}
+.takeTurn{
+    width:100%;
+    color: #000000;
+    font-size: 20px;
+    padding:15px 0px 15px 15px;
+    float:left
+}
+.valueUserBuyTurn{
+    width:100%;
+    float:left;
+    padding:0px 0px 15px 15px;
+    border-bottom: 1px solid #999999;
+}
+.optionLeftBuyTurn{
+    margin-top: 20px;
+    width:100%;
+    float:left;
+}
+
+
+.closeBuyTurn{
+    color: #808080;
+    border: 0px solid;
+    background: #fff;
+    padding: 10px 25px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.closeBuyTurn:hover{
+    background: #fff;
+}
+
+.actionBuyTurn{
+     margin-top:20px;
+}
+.buyTurn{
+    color: #fff;
+    border: 0px solid;
+    background: #ec961f;
+    padding: 10px 30px;
+    margin: 15px 0px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buyTurn:hover{
+    background: #efa743;
+}
+.btn_back{
+    margin-bottom: 10px;
+	padding-left: calc(50% - 50px);
+	width: 100%;
+	cursor: pointer;
+}

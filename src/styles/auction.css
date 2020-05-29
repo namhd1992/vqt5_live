@@ -1,0 +1,91 @@
+.auctionNameWhite{
+    text-align: left;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #000;
+    padding: 5px;
+
+}
+.auctionNameBlack{
+    text-align: left;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #000;
+    padding: 5px;
+}
+
+.img_avatar{
+	width: 24px; 
+    height: 24px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.detail{
+    display: flex;
+    background: #585c61;
+    border-radius: 0px 7px 7px 0px;
+}
+.detail label{
+    display: none;
+    width: 55px;
+    line-height: 35px;
+    cursor: pointer;
+}
+.bonus{
+    display: flex;
+    border: 1px solid #585c61;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.marquee {
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+/* 
+.marquee div {
+    display: block;
+    width: 200%;
+    height: 30px;
+    position: absolute;
+    overflow: hidden;
+    animation: marquee 10s linear infinite;
+} */
+  
+marquee p {
+    margin: 0px;
+    float: left;
+    width: 50%;
+}
+.bonus div:hover + .detail label{
+    display: block;
+    cursor: pointer;
+}
+.marquee marquee:hover {
+    cursor: pointer;
+    animation-play-state: paused
+}
+
+/* @keyframes marquee {
+    0% { left: 0; }
+    100% { left: -100%; }
+} */
+.div_btn_history{
+    margin-top: 30px;
+    margin-bottom: 10px;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	padding: 10px 10px 30px 10px;
+	padding-left: calc(50% - 75px);
+	width: 100%;
+	cursor: pointer;
+}

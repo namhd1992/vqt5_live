@@ -1,0 +1,134 @@
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: roboto !important;
+}
+
+@font-face {
+  font-family: roboto;
+  src: url("../fonts/roboto/Roboto-Regular.ttf");
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.global-loadmore {
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.global-title {
+  font-size: 2em;
+  text-align: left;
+  padding: 10px;
+}
+
+.global-loading {
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.home-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  float: left;
+}
+
+.home-link {
+  float: right;
+}
+
+.home-head {
+  padding: 10px 20px 10px 20px !important;
+  vertical-align: text-bottom;
+}
+
+.home-mission-root {
+  width: 100% !important;
+  margin: 0 !important;
+  margin: 20px 0px 0px 0px !important;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.global-thit {
+  color: #B71C1C;
+}
+
+.global-thit img {
+  height: 18px;
+  vertical-align: text-bottom;
+}
+
+.home-mission-root a {
+  text-decoration: none;
+}
+
+.game-root .slick-center {
+  padding: 0px 0px 0px 0px;
+  box-sizing: border-box;
+}
+
+.article_content {
+  color: "#fff";
+}
+
+.article_content a {
+  text-decoration: none;
+  color: #23c9b6;
+  display: block;
+  cursor: pointer;
+}
+
+.article_content a:hover {
+  color: #ff9019;
+}
+
+.article_content img {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: "5px";
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

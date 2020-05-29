@@ -1,0 +1,11 @@
+
+
+
+@font-face {
+    font-family: 'mijasregular';
+    src: url('mijas-ultra-webfont.woff2') format('woff2'),
+         url('mijas-ultra-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

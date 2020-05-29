@@ -1,0 +1,49 @@
+
+button.moreGame{
+	border-radius: 20px;
+	background: transparent;
+	border: none;
+	color: #fff;
+	padding: 10px;
+	font-size: 0.8em;
+	white-space: nowrap;
+	min-width:88px;
+}
+.articleEvent{
+	border: solid 1px #fe8731;
+	display: inline-block;
+	padding: 5px;
+	margin: 2px;
+	border-radius: 5px;
+	font-size: 0.6em;
+	color: #fe8731;
+	white-space: nowrap;
+}
+.articleNew{
+	border: solid 1px #23968c;
+	display: inline-block;
+	padding: 5px;
+	margin: 2px;
+	border-radius: 5px;
+	font-size: 0.6em;
+	color: #23968c;
+	white-space: nowrap;
+}
+.title{
+	border-radius: 5px;
+	padding: 5px;
+	overflow: hidden;
+	color: #fff;
+	display: flex;
+}
+.tagName{
+	margin-left: 20px;
+	font-size: 11px;
+	border: 1px solid #23c9b6;
+	padding: 1px 2px;
+	border-radius: 20px;
+}
+button:hover{
+	/* background:#fff; */
+	cursor: pointer;
+}

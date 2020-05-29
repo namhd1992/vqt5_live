@@ -1,0 +1,405 @@
+@font-face {
+	font-family: "open";
+	font-style: normal;
+	font-weight: 300;
+	src: local("Open Sans Light"), local("OpenSans-Light"), url(https://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTZ1r3JsPcQLi8jytr04NNhU.woff) format('woff');
+}
+
+*:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+
+@keyframes linear {
+	
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 400px 0;
+	}
+	
+}
+
+
+.mission {
+	content: '';
+	display: block;
+	border-radius: 3px;
+	padding: 2px 0px;
+	transform: scale( 1.02, 1.08 );
+	background: linear-gradient( 90deg, #212933, #212933, #306a73, #212933, #212933 );
+	background-position : 55px 0;
+	top: 0;
+	animation: linear 1s infinite linear;
+	left: 0;
+	z-index: -1;
+}
+
+button.buttonCircleMission{
+	background:#fff;
+	color: #ec961f;
+	border: 2px solid #ec961f;
+	padding: 9px 14px;
+	font-size: 0.8em;
+	white-space: nowrap;
+	min-width: auto;
+	min-height: auto;
+	margin-right:10px;
+	border-radius: 50%;
+	float:left;
+	cursor: pointer;
+	/* visibility: hidden; */
+}
+
+button.buttonCircleMission:hover{
+	background:#e6e6e6;
+
+}
+
+button.buttonMissionReceive{
+	font-size:16px;
+	border-radius: 5px;
+	border: none;
+	background: #33cccc;
+	min-width:88px;
+	color: #fff;
+	padding: 8px;
+	font-size: 0.8em;
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+button.buttonMissionReceive:hover{
+	background: #5cd6d6;
+}
+
+button.buttonFull{
+	border-radius: 5px;
+	font-size:16px;
+	border: none;
+	background: #fff;
+	min-width:88px;
+	color: #fff;
+	padding: 8px;
+	font-size: 0.8em;
+	white-space: nowrap;
+	cursor: pointer;
+}
+button.buttonGhost{
+	font-size:16px;
+	border-radius: 5px;
+	background:#fff;
+	min-width:88px;
+	color: #00948d;
+	border: 2px solid #e6e6e6;
+	padding: 8px;
+	font-size: 0.8em;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.buttonGhost:hover{
+	background:#e6e6e6;
+}
+.btn_close_popup{
+	color:#666666;
+	border-radius: 5px;
+	background:#fff;
+	border: 2px solid #e6e6e6;
+	padding: 8px 10px;
+	cursor: pointer;
+}
+.btn_close_popup:hover{
+	background:#e6e6e6;
+}
+.mission_container{
+	width:100%;
+}
+.avatar{
+	background-color: #00c9b7;
+	padding: 6px 10px;
+	min-width: auto;
+	min-height: auto;
+	color: white;
+	border-radius: 50%;
+}
+.mission .avatar{
+	margin-left: 2px;
+	padding: 5px 10px;
+}
+.img_avatar{
+	width: 24px; 
+	height: 24px;
+}
+.mission_title{
+	font-weight: 400;
+	font-size: 16px;
+	font-weight: bold;
+	color: #666666;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	
+}
+.mission_content{
+	background:#212933;
+}
+
+.mission_action{
+	flex:auto;
+	width:1%; 
+	float:left;
+}
+.mission .mission_action{
+	margin-right: 5px 0px;
+}
+
+.received{
+	border-radius: 20px;
+	/* background:#a6a6a6; */
+	width:88px;
+	color: #fff;
+	border: 0px solid #00948d;
+	padding: 8px;
+	font-size: 0.8em;
+	white-space: nowrap;
+	cursor: default;
+}
+.articleEvent{
+	border: solid 1px #fe8731;
+	display: inline-block;
+	padding: 5px;
+	margin: 2px;
+	border-radius: 5px;
+	font-size: 0.6em;
+	color: #fe8731;
+	white-space: nowrap;
+}
+.articleNew{
+	border: solid 1px #23968c;
+	display: inline-block;
+	padding: 5px;
+	margin: 2px;
+	border-radius: 5px;
+	font-size: 0.6em;
+	color: #23968c;
+	white-space: nowrap;
+}
+span.numberBonus{
+	color: #cee43b;
+	font-size: 0.8em;
+	margin-left: 5px;
+}
+
+button.buttonGhostMission{
+	border-radius: 5px;
+	background:#fff;
+	min-width:88px;
+	color: #33cccc;
+	border: 2px solid #e5e5e5;
+	padding: 8px;
+	font-size: 0.8em;
+	white-space: nowrap;
+	cursor: pointer;
+}
+button.buttonGhostMission:hover{
+	background:#e6e6e6;
+}
+.div_more_mission{
+	margin-top: 30px;
+    margin-bottom: 10px;
+	border: 2px solid #cccccc;
+	border-radius: 5px;
+	padding: 10px;
+	padding-left: calc(50% - 50px);
+	width: 100%;
+	cursor: pointer;
+}
+
+@media only screen and (max-width:1280px){
+	.mission{
+	   padding: 2px 0px;
+	   }
+	.mission_action{
+		flex:auto;
+		width:1%; 
+		float:left;
+	}
+   	button.buttonCircleMission{
+		padding: 6px 10px;
+		font-size: 0.7em;
+		margin-right:5px;
+	}
+	.received{
+		min-width:70px;
+	}
+	button.buttonGhostMission{
+		border-radius: 4px;
+		min-width:70px;
+		padding: 6px;
+	}
+	button.buttonMissionReceive{
+		border-radius: 4px;
+		min-width:70px;
+		padding: 6px;
+	}
+	.avatar{
+		padding: 4px 7px;
+	}
+	.img_avatar{
+		width: 18px; 
+		height: 18px;
+	}
+	.mission_title{
+		font-weight: 400;
+	}
+	span.valueBonus{
+		font-size: 0.7em;
+	}
+	span.numberBonus{
+		font-size: 0.7em;
+		margin-left: 3px;
+	}
+
+}
+
+@media only screen and (max-width:1024px){
+	.mission_action{
+		flex:auto;
+		width:1%; 
+		float:left;
+	}
+	.avatar{
+		padding: 3px 8px;
+	}
+
+}
+ 
+
+@media only screen and (max-width:960px){
+ 	.mission{
+		padding: 2px 0px 2px 6px;
+	}
+	.mission_action{
+		flex:none;
+		width:20%; 
+	}
+	.mission .mission_action{
+		margin-right: 8px;
+	}
+	.mission .avatar{
+		padding: 4px 10px;
+	}
+	span.valueBonus{
+		font-size: 0.8em;
+	}
+	span.numberBonus{
+		font-size: 0.8em;
+		margin-left: 5px;
+	}
+}
+
+@media only screen and (max-width:667px){
+	.mission{
+		padding: 2px 0px 2px 1px;
+	}
+	.mission_action{
+		flex:auto;
+		width:10%; 
+		float:left;
+	}
+	.mission .mission_action{
+		margin-right: 4px;
+	}
+	span.valueBonus{
+		font-size: 0.7em;
+	}
+	span.numberBonus{
+		font-size: 0.7em;
+		margin-left: 3px;
+	}
+}
+
+@media only screen and (max-width:600px){
+	.mission{
+		padding: 2px 0px 2px 1px;
+	}
+	.mission_action{
+		flex:auto;
+		width:25%; 
+		float:left;
+	}
+	.mission .mission_action{
+		margin-right: 4px;
+	}
+	span.valueBonus{
+		font-size: 0.7em;
+	}
+	span.numberBonus{
+		font-size: 0.7em;
+		margin-left: 3px;
+	}
+}
+
+@media only screen and (max-width:450px){
+	.mission_action{
+		flex:auto;
+		width:35%; 
+		float:left;
+	}
+
+}
+@media only screen and (max-width:375px){
+	.mission{
+		padding: 2px 0px 2px 1px;
+	}
+	.mission_action{
+		flex:auto;
+		width:47%; 
+		float:left;
+	}
+	.mission .mission_action{
+		margin-right: 4px;
+	}
+	.mission .avatar{
+		padding: 3px 8px;
+		margin-right: 2px;
+	}
+	span.valueBonus{
+		font-size: 0.7em;
+	}
+	span.numberBonus{
+		font-size: 0.7em;
+		margin-left: 3px;
+	}
+}
+
+@media only screen and (max-width:320px){
+	.mission{
+		padding: 2px 0px 2px 1px;
+	}
+	.mission_action{
+		flex:auto;
+		width:70%; 
+		float:left;
+	}
+	.mission .mission_action{
+		margin-right: 4px;
+	}
+	span.valueBonus{
+		font-size: 0.7em;
+	}
+	span.numberBonus{
+		font-size: 0.7em;
+		margin-left: 3px;
+	}
+	.avatar{
+		padding: 3px 8px;
+	}
+	.mission .avatar{
+		padding: 2px 8px;
+	}
+}

@@ -1,0 +1,115 @@
+.checkin-root {
+  width: 100% !important;
+  margin: 0px !important;
+  margin: auto !important;
+	border-radius: 3px;
+}
+
+.checkin-item-today {
+  /* background: linear-gradient(90deg, rgb(34, 202, 181), rgb(63, 226, 143)); */
+  background-color: rgba(0, 0, 0, 0.2);
+  border: solid 1px #23c9b6;
+  border-radius: 2px;
+  padding: 10px;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  color: white;
+}
+
+.checkin-item {
+  background-color: #f6f6f6;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  padding: 10px;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  color: white;
+}
+
+.checkin-item .checkin-day {
+}
+
+.checkin-item .checkin-icon {
+}
+
+.checkin-item .checkin-price {
+}
+
+.checkin-item-wait {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  padding: 10px;
+  width: 100%;
+  margin: auto;
+  color: white;
+  position: relative;
+}
+
+.checkin-icon img {
+  height: 24px;
+}
+
+.checkin-done {
+  position: absolute;
+  top: 0px;
+  text-align: center;
+  height: 100%;
+}
+
+.checkin-done-icon {
+  height: 100% !important;
+  width: 100% !important;
+  margin: auto;
+  color: #23c9b6;
+}
+
+.checkin-icon {
+  text-align: center;
+}
+
+.checkin-item-wrap {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.checkin-button {
+  borderRadius: "20px";
+  background: "linear-gradient(90deg,#22cab5,#3fe28f)";
+  color: "#fff";
+  padding: "10px";
+  font-size: "0.8em";
+  white-space: "nowrap";
+  min-width: "auto";
+  min-height: "auto"
+}
+
+.disabledbtn {
+  color: gray !important;
+}
+
+.checkin-day {
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+
+.checkin-price {
+  width: 100%;
+  text-align: center;
+}
+
+.checkin-root-list {
+  width: 100% !important;
+  margin: 0px !important;
+}
+
+.checkin-image-today {
+  width: 40px;
+  margin: auto;
+}
+
+.list-today-wrap {
+  justify-content: space-around;
+}

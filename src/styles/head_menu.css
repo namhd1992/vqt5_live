@@ -1,0 +1,59 @@
+.head-menu-root .head-menu-grid {
+  display: flex;
+  justify-content: space-around;
+}
+
+.head-menu-root {
+	margin-top: 8px;
+}
+
+.head-menu-root.compact {
+  background: #212933;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  margin-bottom: 0;
+  padding-top: 0;
+  z-index: 100;
+}
+
+.head-menu-root .link {
+  color: white;
+  font-weight: 400;
+  display: block;
+  padding: 5px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.head-menu-root a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.head-menu-root a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.head-menu-root a:active {
+  color: white;
+  text-decoration: none;
+}
+
+.head-menu-root a:focus {
+  color: white;
+  text-decoration: none;
+}
+
+.head-menu-active {
+  background: radial-gradient(circle at 50% 50%, rgba(65, 229, 255, 0.7) 0%, rgba(234, 229, 219, 0) 50%);
+}
+
+.head-menu-text {
+  vertical-align: text-bottom;
+  width: 100%;
+}

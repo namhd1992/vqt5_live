@@ -1,0 +1,72 @@
+.lucky-root {
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+.lucky-item {}
+
+.lucky-item .lucky-item-image {
+    text-align: center;
+}
+
+.lucky-item .lucky-item-image img {
+    height: 96px;
+}
+
+.lucky-item .lucky-item-name {
+    text-align: center;
+}
+
+.lucky-detail-root {
+    width: 100% !important;
+    text-align: center;
+}
+
+.lucky-detail-root .lucky-card {
+    position: absolute;
+    transform: 1s;
+}
+
+.lucky-detail-root .lucky-card-collapse {
+    top: 0;
+    left: 0;
+}
+
+.lucky-wrap {}
+
+.lucky-button button {
+    width: 100%;
+    margin: auto;
+		clear: both;
+		color: white;
+}
+
+.lucky-item-img {
+    height: 32px;
+}
+
+.lucky-button {
+    padding: 5px 0px;
+}
+
+.ghostbtn {
+    color: #007acc !important;
+    border: 1px solid #007acc !important;
+}
+
+.div_more_lucky{
+    margin-top: 30px;
+    margin-bottom: 10px;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	padding: 10px;
+	padding-left: calc(50% - 50px);
+	width: 100%;
+	cursor: pointer;
+}
+
+.article_content img {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}

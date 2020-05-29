@@ -1,0 +1,502 @@
+@font-face {
+	font-family: "open";
+	font-style: normal;
+	font-weight: 300;
+	src: local("Open Sans Light"), local("OpenSans-Light"), url(https://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTZ1r3JsPcQLi8jytr04NNhU.woff) format('woff');
+}
+
+*:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+
+@keyframes linear {
+	
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 400px 0;
+	}
+	
+}
+
+.imgLogoGame{
+	width: 50%;
+}
+
+.mission_home {
+	content: '';
+	display: block;
+	border-radius: 3px;
+	padding: 2px 0px;
+	transform: scale( 1.02, 1.08 );
+	background: linear-gradient( 90deg, #212933, #212933, #306a73, #212933, #212933 );
+	background-position : 55px 0;
+	top: 0;
+	animation: linear 1s infinite linear;
+	left: 0;
+	z-index: -1;
+}
+
+/* button.buttonCircle{
+	background:#232b36;
+	color: #12cdd4;
+	border: 1px solid #12cdd4;
+	padding: 9px 14px;
+	font-size: 0.8em;
+	white-space: nowrap;
+	min-width: auto;
+	min-height: auto;
+	margin-right:10px;
+	border-radius: 50%;
+	float:left;
+	cursor: pointer;
+	visibility: hidden;
+} */
+button.buttonFull{
+	border-radius: 20px;
+	border: none;
+	background: linear-gradient(90deg,#22cab5,#3fe28f);
+	min-width:88px;
+	color: #fff;
+	padding: 8px;
+	font-size: 0.8em;
+	white-space: nowrap;
+	cursor: pointer;
+}
+button.buttonGhost{
+	border-radius: 20px;
+	background:#232b36;
+	min-width:88px;
+	color: #00948d;
+	border: 1px solid #00948d;
+	padding: 8px;
+	font-size: 0.8em;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.mission_home_container{
+	width:100%;
+}
+.avatar{
+	background-color: #00c9b7;
+	padding: 6px 10px;
+	min-width: auto;
+	min-height: auto;
+	color: white;
+	border-radius: 50%;
+}
+.mission_home .avatar{
+	margin-left: 2px;
+	padding: 5px 10px;
+}
+.img_avatar{
+	width: 24px; 
+	height: 24px;
+}
+.mission_home_title{
+	font-weight: 400;
+	color: #fff;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	
+}
+.mission_home_content{
+	background:#212933;
+}
+
+.mission_home_action{
+	flex:auto;
+	width:27%; 
+	float:left;
+}
+.mission_home .mission_home_action{
+	margin-right: 5px 0px;
+}
+
+.received{
+	border-radius: 20px;
+	/* background:#a6a6a6; */
+	width:88px;
+	color: #fff;
+	border: 0px solid #00948d;
+	padding: 8px;
+	font-size: 0.8em;
+	white-space: nowrap;
+	cursor: default;
+}
+.articleEvent{
+	border: solid 1px #fe8731;
+	display: inline-block;
+	padding: 5px;
+	margin: 2px;
+	border-radius: 5px;
+	font-size: 0.6em;
+	color: #fe8731;
+	white-space: nowrap;
+}
+.articleNew{
+	border: solid 1px #23968c;
+	display: inline-block;
+	padding: 5px;
+	margin: 2px;
+	border-radius: 5px;
+	font-size: 0.6em;
+	color: #23968c;
+	white-space: nowrap;
+}
+span.numberBonus{
+	color: #cee43b;
+	font-size: 0.8em;
+	margin-left: 5px;
+}
+button:hover{
+	/* background:#3c434c; */
+}
+button.buttonFull:hover{
+	background: linear-gradient(90deg,#51e1d1,#7aebb1);
+}
+
+.marquee_home {
+    height: 40px;
+    line-height: 40px;
+	width: 98%;
+	float: left;
+	/* background:#f4dede; */
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+.closeMarquee{
+	cursor: pointer;
+	margin-left: 4px;
+}
+
+.popupGame{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -300px;
+	margin-left: -300px;
+	width: 600px;
+	height:600px;
+	background-size:contain;
+	background-repeat:no-repeat;
+	box-shadow: 5px;
+	padding: 5px;
+	outline: "none";
+}
+
+.imgGameRun{
+	inline-size:9%;
+	margin-bottom:-3px;
+}
+.contentRun p{
+	color: #b4504b;
+	padding: 0px !important;
+}
+
+.contentRun p a{
+	color: #93bbe8;
+}
+.contentRun p img{
+	margin-bottom:-5px;
+}
+
+@media only screen and (max-width:1366px){
+	.popupGame{
+		margin-top: -250px;
+		margin-left: -250px;
+		width: 500px;
+		height:500px;
+	}
+}
+
+@media only screen and (max-width:1280px){
+	.mission_home{
+	   padding: 2px 0px;
+	   }
+	.mission_home_action{
+		flex:auto;
+		width:33%; 
+		float:left;
+	}
+   	/* button.buttonCircle{
+		padding: 6px 10px;
+		font-size: 0.7em;
+		margin-right:5px;
+	} */
+	button.buttonFull{
+		border-radius: 14px;
+		min-width:70px;
+		padding: 6px;
+	}
+	.received{
+		min-width:70px;
+	}
+	button.buttonGhost{
+		border-radius: 14px;
+		min-width:70px;
+		padding: 6px;
+	}
+	.avatar{
+		padding: 4px 7px;
+	}
+	.img_avatar{
+		width: 18px; 
+		height: 18px;
+	}
+	.mission_home_title{
+		font-weight: 400;
+	}
+	span.valueBonus{
+		font-size: 0.7em;
+	}
+	span.numberBonus{
+		font-size: 0.7em;
+		margin-left: 3px;
+	}
+
+}
+
+@media only screen and (max-width:1024px){
+	.mission_home_action{
+		flex:auto;
+		width:37%; 
+		float:left;
+	}
+	.avatar{
+		padding: 3px 8px;
+	}
+	.marquee_home {
+		width: 97%;
+	}
+	.popupGame{
+		margin-top: -200px;
+		margin-left: -200px;
+		width: 400px;
+		height:400px;
+	}
+	.imgGameRun{
+		inline-size:12%;
+	}
+}
+ 
+
+@media only screen and (max-width:960px){
+ 	.mission_home{
+		padding: 2px 0px 2px 6px;
+	}
+	.mission_home_action{
+		flex:none;
+		width:18%; 
+	}
+	.mission_home .mission_home_action{
+		margin-right: 8px;
+	}
+	.mission_home .avatar{
+		padding: 4px 10px;
+	}
+	span.valueBonus{
+		font-size: 0.8em;
+	}
+	span.numberBonus{
+		font-size: 0.8em;
+		margin-left: 5px;
+	}
+}
+
+@media only screen and (max-width:768px){
+	.mission_home{
+		padding: 2px 0px 2px 1px;
+	}
+	.mission_home_action{
+		flex:auto;
+		width:32%; 
+		float:left;
+	}
+	.mission_home .mission_home_action{
+		margin-right: 4px;
+	}
+	span.valueBonus{
+		font-size: 0.7em;
+	}
+	span.numberBonus{
+		font-size: 0.7em;
+		margin-left: 3px;
+	}
+	.marquee_home {
+		width: 96%;
+	}
+	.closeMarquee{
+		margin-left: 4px;
+	}
+	.imgGameRun{
+		inline-size:20%;
+	}
+}
+
+
+@media only screen and (max-width:667px){
+	.mission_home{
+		padding: 2px 0px 2px 1px;
+	}
+	.mission_home_action{
+		flex:auto;
+		width:32%; 
+		float:left;
+	}
+	.mission_home .mission_home_action{
+		margin-right: 4px;
+	}
+	span.valueBonus{
+		font-size: 0.7em;
+	}
+	span.numberBonus{
+		font-size: 0.7em;
+		margin-left: 3px;
+	}
+	.marquee_home {
+		width: 96%;
+	}
+	.popupGame{
+		margin-top: -175px;
+		margin-left: -175px;
+		width: 350px;
+		height:350px;
+	}
+}
+
+@media only screen and (max-width:600px){
+	.imgLogoGame{
+		width: 100%;
+	}
+	.mission_home{
+		padding: 2px 0px 2px 1px;
+	}
+	.mission_home_action{
+		flex:auto;
+		width:32%; 
+		float:left;
+	}
+	.mission_home .mission_home_action{
+		margin-right: 4px;
+	}
+	span.valueBonus{
+		font-size: 0.7em;
+	}
+	span.numberBonus{
+		font-size: 0.7em;
+		margin-left: 3px;
+	}
+	.marquee_home {
+		width: 95%;
+	}
+	.closeMarquee{
+		margin-left: 0px;
+	}
+	.popupGame{
+		margin-top: -150px;
+		margin-left: -150px;
+		width: 300px;
+		height:300px;
+	}
+	.imgGameRun{
+		inline-size:25%;
+	}
+}
+
+@media only screen and (max-width:375px){
+	.imgLogoGame{
+		width: 100%;
+	}
+	.mission_home{
+		padding: 2px 0px 2px 1px;
+	}
+	.mission_home_action{
+		flex:auto;
+		width:47%; 
+		float:left;
+	}
+	.mission_home .mission_home_action{
+		margin-right: 4px;
+	}
+	.mission_home .avatar{
+		padding: 3px 8px;
+		margin-right: 2px;
+	}
+	span.valueBonus{
+		font-size: 0.7em;
+	}
+	span.numberBonus{
+		font-size: 0.7em;
+		margin-left: 3px;
+	}
+	.marquee_home {
+		width: 93%;
+	}
+	.closeMarquee{
+		margin-left: 2px;
+	}
+	.popupGame{
+		margin-top: -150px;
+		margin-left: -150px;
+		width: 300px;
+		height:300px;
+	}
+	.imgGameRun{
+		inline-size:35%;
+	}
+}
+
+@media only screen and (max-width:320px){
+	.imgLogoGame{
+		width: 100%;
+	}
+	.mission_home{
+		padding: 2px 0px 2px 1px;
+	}
+	.mission_home_action{
+		flex:auto;
+		width:50%; 
+		float:left;
+	}
+	.mission_home .mission_home_action{
+		margin-right: 4px;
+	}
+	span.valueBonus{
+		font-size: 0.7em;
+	}
+	span.numberBonus{
+		font-size: 0.7em;
+		margin-left: 3px;
+	}
+	button.buttonFull{
+		width:60px;
+		color: #fff;
+		padding: 8px 6px;
+		font-size: 0.7em;
+	}
+	button.buttonGhost{
+		width:60px;
+		padding: 8px 6px;
+		font-size: 0.7em;
+	}
+	.avatar{
+		padding: 3px 8px;
+	}
+	.mission_home .avatar{
+		padding: 2px 8px;
+	}
+	.popupGame{
+		margin-top: -125px;
+		margin-left: -125px;
+		width: 250px;
+		height:250px;
+	}
+}

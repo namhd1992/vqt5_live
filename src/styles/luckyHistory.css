@@ -1,0 +1,10 @@
+
+.div_more_history{
+    margin-bottom: 20px;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	padding: 10px 0px 35px 0px;
+	padding-left: calc(50% - 50px);
+	width: 100%;
+	cursor: pointer;
+}
