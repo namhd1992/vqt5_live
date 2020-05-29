@@ -223,9 +223,7 @@ class Lucky_Rotation extends React.Component {
 			this.setState({ status_sukien: "Giờ Vàng còn lại", live:true});
 		}else{
 			if(goldTimeStatus){
-				this.setState({goldTimeStatus:false}, ()=>{
-					console.log('AAAAAAAAAAAAA')
-				});
+				this.setState({goldTimeStatus:false});
 			}
 			if(goal_upcoming){
 				this.timeRemain(goldTimeStart)
@@ -237,7 +235,7 @@ class Lucky_Rotation extends React.Component {
 				}
 				if (time > start && time < end) {
 					this.timeRemain(end)
-					this.setState({ status_sukien: "Sự kiện đang diễn ra còn", live:true});
+					this.setState({ status_sukien: "Sự kiện đang diễn ra", live:true});
 				}
 				if (time > end) {
 					this.setState({ status_sukien: "Sự kiện đã kết thúc.", message_status:"Sự kiện đã kết thúc.", finish:true});
