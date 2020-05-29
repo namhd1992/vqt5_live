@@ -746,7 +746,7 @@ class Lucky_Rotation extends React.Component {
 			<div class={goldTimeStatus ? "container-fluid bg-page position-relative" : "container-fluid b-bg-page position-relative"} >
 				<div class="k-fixed-bottom">
 					<div class="k-box-time">
-						<h2 class="text-center text-white font-weight-bold font-italic">{status_sukien}</h2>
+						<h2 class="text-center text-white font-weight-bold font-italic" style={{marginBottom:15}}>{status_sukien}</h2>
 						<table class="table table-borderless k-tbl-boxtime m-0 p-0" align="center">
 						<tr>
 							<td class="k-cell-timer-p1 text-white k-display-5 text-center font-weight-bold p-1 align-middle font-mijasultra">{day}</td>

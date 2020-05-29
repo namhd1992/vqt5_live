@@ -23,7 +23,7 @@ body {background-color: #000005;}
 .bg-page {background: url("../images/bg.png") top center no-repeat; height:100vh; width:100%; background-size: contain;}
 .b-bg-page {background: url("../images/b-bg.png") top center no-repeat; height:100vh; width:100%; background-size: contain;}
 .k-fixed-bottom {position: absolute; top: 58%; left: 50%; transform: translate(-50%, 0);}
-.k-box-time {  margin: 0 auto; width: 200px;}
+/* .k-box-time {  margin: 0 auto; width: 200px;} */
 .k-tbl-boxtime {width: 200px;}
 .font-mijasultra {font-family: mijasultra;}
 .k-box-time h2 {margin-bottom: 0; font-size: 1.5rem}
@@ -83,7 +83,7 @@ body {background-color: #000005;}
 .bg-page {background: url("../images/bg-m-320.png") top center no-repeat; height:100vh; width:100%; background-size: cover;}
 .b-bg-page {background: url("../images/b-bg-m-320.png") top center no-repeat; height:100vh; width:100%; background-size: cover;}
 .k-fixed-bottom {top: 56%; }
-.k-box-time {  margin: 0 auto; width: 160px;}
+/* .k-box-time {  margin: 0 auto; width: 160px;} */
 .k-tbl-boxtime {width: 160px;}
 .k-box-time h2 {margin-bottom: 0; font-size: 1.1rem}
 .k-cell-timer-p1 {background:url(../images/bg-btime.png) center no-repeat; width: 30px; height:30px; padding-left: 2px; background-size: contain}
