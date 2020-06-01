@@ -633,7 +633,6 @@ class Lucky_Rotation extends React.Component {
 				this.setState({message_status:"Sự kiện chưa diễn ra."},()=>{
 					$('#myModal8').modal('show');
 				})
-				
 			}else if(finish){
 				this.setState({message_status:"Sự kiện đã kết thúc."},()=>{
 					$('#myModal8').modal('show');
@@ -772,7 +771,7 @@ class Lucky_Rotation extends React.Component {
 							<p class="font14" style={{textAlign:'center', color:'#fff', marginBottom:5, marginTop:5}}>Chìa khóa còn lại: {turnsFree ? turnsFree.toLocaleString() :0} <img src={key_yellow_icon}  width="20"/></p>
 						</div> 
 						<div class="d-flex justify-content-center">
-							<div class="them-chia-khoa"><a title="Thêm chìa khóa" data-toggle="modal" data-target="#themchiakhoa" onClick={this.openThemLuot}><img class="img-hover" src={btn_them_chiakhoa} width="100" alt="Thêm chìa khóa" /></a></div>
+							<div class="them-chia-khoa"><a title="Thêm chìa khóa" data-toggle="modal" onClick={this.openThemLuot}><img class="img-hover" src={btn_them_chiakhoa} width="100" alt="Thêm chìa khóa" /></a></div>
 						</div>
 						<p class="font12 text-white text-center pt-1">Đang đăng nhập &lt;{this.getUsername(userTurnSpin.currName)}&gt; <a class="text-info" href="#" title="Thoát" onClick={this.logoutAction}>Thoát</a></p>
 						
