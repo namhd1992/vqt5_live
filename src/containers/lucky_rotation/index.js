@@ -348,6 +348,7 @@ class Lucky_Rotation extends React.Component {
 
 	btnStart=()=>{
 		const {server_err, start, finish}=this.state;
+		console.log(start)
 		$('#chucmung').modal('hide');
 		$('#ruongrong').modal('hide');
 		if(server_err){
@@ -1257,6 +1258,20 @@ class Lucky_Rotation extends React.Component {
 							<p className="text-thele text-center font-iCielPantonBlack" style={{color:'red'}}>Đã dùng hết Chìa khóa</p>
 						)}        
 					</div>
+					</div>
+				</div>
+			</div>
+
+			{/* Thông báo */}
+			<div className="modal fade" id="myModal8">
+				<div class="modal-dialog">
+					<div class="modal-content">
+					<div class="modal-header border-bottom-0 pb-0">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+					</div>
+						<div className="table-responsive mt-2 mb-4">              
+							<h5 className="text-thele lead text-center">{message_status}</h5>
+						</div>       
 					</div>
 				</div>
 			</div>
