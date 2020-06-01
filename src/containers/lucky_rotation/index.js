@@ -976,7 +976,7 @@ class Lucky_Rotation extends React.Component {
 						<dl class="font14">
 							<dt class="pb-1">I. Đối tượng tham gia</dt>
 							<dd class="pl-1" style={{marginLeft:10}}>&bull; Tất cả game thủ có tài khoản Scoin. Nếu chưa có <a href="https://scoin.vn/nap-game" title="Đăng ký" target="_blank">&raquo; Đăng ký tại đây &laquo;</a></dd>
-							<dd class="pl-1"  style={{marginLeft:10}}>&bull; Thời gian SK diễn ra từ 10:00 ngày 19.03 - hết ngày 18.04.2020. Sau khi kết thúc, số chìa khóa sẽ được xóa khỏi hệ thống.</dd>
+							<dd class="pl-1"  style={{marginLeft:10}}>&bull; Thời gian SK diễn ra từ 10:00 ngày 03.06 - hết ngày 02.07.2020. Sau khi kết thúc, số chìa khóa sẽ được xóa khỏi hệ thống.</dd>
 							<dt class="pt-2 pb-1">II. Cách nhận chìa khóa mở rương báu</dt>
 							<dd class="pl-1"  style={{marginLeft:10}}>&bull; Nạp ví Scoin/ thẻ Scoin vào các game do VTC Mobile phát hành.</dd>
 							<dd class="pl-1"  style={{marginLeft:10}}>&bull; Mỗi 1 Scoin bạn nạp vào game từ Thẻ Scoin sẽ nhận được 2 Điểm.</dd>
@@ -986,7 +986,7 @@ class Lucky_Rotation extends React.Component {
 
 						<div class="alert alert-secondary font14 text-center">
 							<p class="font-weight-bold font14 mb-1">Điểm đang có: <span class="text-danger">{turnsBuyInfo.accumulationPoint ? turnsBuyInfo.accumulationPoint.toLocaleString() : 0} Điểm</span></p>
-							<p class="font-weight-bold font14">Cần nạp thêm tối thiểu <span class="text-danger">{turnsBuyInfo.cardBalanceRounding ? turnsBuyInfo.cardBalanceRounding.toLocaleString(): 0} Scoin</span> từ Thẻ Scoin hoặc <span class="text-danger">{turnsBuyInfo.scoinBalanceRounding ? turnsBuyInfo.scoinBalanceRounding.toLocaleString(): 0} Scoin từ ví</span> để nhận 01 Chìa khóa miễn phí!</p>
+							<p class="font-weight-bold font14">Cần nạp thêm tối thiểu <span class="text-danger">{turnsBuyInfo.cardBalanceRounding ? turnsBuyInfo.cardBalanceRounding.toLocaleString(): '50.000'} Scoin</span> từ Thẻ Scoin hoặc <span class="text-danger">{turnsBuyInfo.scoinBalanceRounding ? turnsBuyInfo.scoinBalanceRounding.toLocaleString(): '100.000'} Scoin từ ví</span> để nhận 01 Chìa khóa miễn phí!</p>
 							<p class="font-weight-bold font14"><a href="https://scoin.vn/nap-game" title="Nạp game" target="_blank">Thêm Chìa khóa <img src={key_yellow_icon} width="20" class="img-fluid" /></a></p>
 						</div>
 						<p class="text-center"><a href="#" title="Nạp game" data-dismiss="modal" data-toggle="modal" data-target="#bgiaithuong" onClick={this.openGiaiThuong}><img src={btn_xem_khobau} width="128" alt="Xem kho báu" /></a></p>

@@ -21,7 +21,7 @@ app.get('/', function(request, response) {
     data = data.replace(/\$OG_URL/g, 'https://khobauScoin.splay.vn/');
     data = data.replace(/\$OG_TYPE/g, "Game");
     data = data.replace(/\$OG_TITLE/g, 'Săn Kho Báu - Mỗi ngày 1 rương khủng 5 triệu Scoin');
-    data = data.replace(/\$OG_DESCRIPTION/g, "SK khuyến mại Scoin từ 01.06 - 30.06 dành cho tất cả game thủ VTC Mobile.");
+    data = data.replace(/\$OG_DESCRIPTION/g, "SK khuyến mại Scoin từ 10:00 ngày 03.06 - hết ngày 02.07.2020 dành cho tất cả game thủ VTC Mobile.");
     result = data.replace(/\$OG_IMAGE/g, 'https://i.postimg.cc/JhfvL3N2/share-vqt5.jpg');
     response.send(result);
   });
