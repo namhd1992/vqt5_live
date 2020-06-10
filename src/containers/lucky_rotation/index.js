@@ -982,6 +982,9 @@ class Lucky_Rotation extends React.Component {
 							<dd class="pl-1"  style={{marginLeft:10}}>&bull; Mỗi 1 Scoin bạn nạp vào game từ Thẻ Scoin sẽ nhận được 2 Điểm.</dd>
 							<dd class="pl-1"  style={{marginLeft:10}}>&bull; Mỗi 1 Scoin bạn nạp vào game từ ví Scoin sẽ nhận được 1 Điểm.</dd>
 							<dd class="pl-1"  style={{marginLeft:10}}>&bull; Mỗi 100,000 Điểm bạn nhận được 01 Chìa khóa được hệ thống tự động quy đổi.</dd>
+							<dt class="pt-2 pb-1">III. Lưu ý:</dt>
+							<dd class="pl-1"  style={{marginLeft:10}}>&bull; Chỉ áp dụng cộng Điểm khi nạp hợp lệ thành công qua trang <a href="https://scoin.vn/nap-game" title="Đăng ký" target="_blank"> https://scoin.vn/nap-game</a></dd>
+							<dd class="pl-1"  style={{marginLeft:10}}>&bull; Tất cả <img src={key_yellow_icon} width="20" class="img-fluid" /> Chìa khóa nhận được và Điểm tích lũy còn dư đều có thời hạn đến hết 03.07.2020, sau đó sẽ được xóa khỏi hệ thống.</dd>
 						</dl>
 
 						<div class="alert alert-secondary font14 text-center">
